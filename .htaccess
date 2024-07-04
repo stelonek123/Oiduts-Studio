@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow.Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule oiduts-studio-glowna index.html
+RewriteRule oiduts-studio-cz_onkowie members.html
+RewriteRule oiduts-studio-nowo_ci news.html
+RewriteRule oiduts-studio-historia story.html
+RewriteRule oiduts-studio-nasze-gr ogames.html
